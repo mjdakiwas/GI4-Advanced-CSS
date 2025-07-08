@@ -1,0 +1,22 @@
+#checkerboard {
+    display: grid;
+    grid-template-columns: repeat(8, 100px);
+    grid-template-rows: repeat(8, 100px);
+    padding: 10px;
+    border: solid 1px black;
+    width: fit-content;
+}
+
+.black {
+    display: inline-block;
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}
+
+.white {
+    display: inline-block;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+}
