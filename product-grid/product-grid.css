@@ -139,7 +139,7 @@ button i {
 
 .sizes {
     font-size: 0.8125em;
-    color: grey;
+    color: rgb(118, 118, 118);
     margin-bottom: 4px;
 }
 
@@ -156,7 +156,7 @@ button i {
 }
 
 .red {
-    color: red;
+    color: darkred;
 }
 
 .product-notif, .product-note {
@@ -166,11 +166,11 @@ button i {
 }
 
 .product-notif {
-    color: red;
+    color: darkred;
 }
 
 .product-note {
-    color: darkgray;
+    color: rgb(118, 118, 118);
 }
 
 .rating-num {
