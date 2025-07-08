@@ -13,6 +13,7 @@
 /* fonts CSS */
 .commissioner-regular {
   font-family: "Commissioner", sans-serif;
+  font-display: auto;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -24,6 +25,7 @@
 
 .abel-regular {
   font-family: "Abel", sans-serif;
+  font-display: auto;
   font-weight: 400;
   font-style: normal;
 }
@@ -79,7 +81,7 @@ a {
 
 .product-img {
     width: 100%;
-    height: auto;
+    max-width: 100%;
     max-width: 300px;
 }
 
